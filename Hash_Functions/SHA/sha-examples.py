@@ -29,3 +29,11 @@ result = hashlib.sha512(str.encode())
 print("The hexadecimal equivalent of SHA512 is : ") 
 print(result.hexdigest()) 
 print('\r')
+
+
+## BONUS 
+
+## useful command to genertate SHA hash for text in mac terminal
+
+## echo -n "Hello World" | shasum -a 256
+## put whatever text in between quotes
